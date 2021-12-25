@@ -1,0 +1,12 @@
+import numpy as np
+n,m=int(input().split())
+o=str(np.eye(n,m))  #string used to use replace function for spacing of 0s and 1s
+print(o.replace('0',' 0').replace('1', ' 1')
+
+
+method#2
+import numpy as np
+## np.set_printoptions(legacy='1.13') #space alignment
+n,m=int(input().split())
+o=str(np.eye(n,m))
+print(o.replace('0','0').replace('1', '1')
